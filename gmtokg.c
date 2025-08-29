@@ -4,7 +4,8 @@ int main()
     int kg,gm;
     printf("enter gm:");
     scanf("%d", &gm);
-    kg = 1000/gm;
+    kg = gm/1000;
     printf("%d",kg);
     return 0;
+
 }
